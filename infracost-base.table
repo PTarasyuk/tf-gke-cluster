@@ -1,0 +1,21 @@
+[1mProject:[0m PTarasyuk/tf-gke-cluster
+
+ [4mName[0m                                                 [4mMonthly Qty[0m  [4mUnit[0m   [4mMonthly Cost[0m 
+                                                                                       
+ [1mmodule.gke_cluster.google_container_cluster.this[0m                                      
+ [2m└─[0m Cluster management fee                                    730  hours        $73.00 
+                                                                                       
+ [1mmodule.gke_cluster.google_container_node_pool.this[0m                                    
+ [2m├─[0m Instance usage (Linux/UNIX, on-demand, e2-micro)          730  hours         $6.11 
+ [2m└─[0m Standard provisioned storage (pd-standard)                100  GB            $4.00 
+                                                                                       
+[1m OVERALL TOTAL[0m                                                                  $83.11 
+──────────────────────────────────
+2 cloud resources were detected:
+∙ 2 were estimated, all of which include usage-based costs, see [4mhttps://infracost.io/usage-file[0m
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ PTarasyuk/tf-gke-cluster                           ┃ $83          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛
